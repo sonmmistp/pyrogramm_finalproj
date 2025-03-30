@@ -98,33 +98,13 @@ async def start_command(client: Client, message: Message):
         """
 🎬 <b>Лучшие зарубежные сериалы</b> 🎬
 
-1. <b>Как избежать наказания за убийство</b> (How to Get Away with Murder, 2014–2020)
-Сюжет крутится вокруг крутейшего адвоката и её студентов.
-🔹 <a href="https://www.netflix.com/title/80024057">Netflix</a> | <a href="https://www.kinopoisk.ru/series/1048334/">Кинопоиск</a>
-
-2. <b>Новичок</b> (The Rookie, 2018–)
-Джон Нолан – самый старый новичок в полиции Лос-Анджелеса.
-🔹 <a href="https://www.kinopoisk.ru/series/1048334/">Кинопоиск</a> | <a href="https://www.hulu.com/series/the-rookie">Hulu</a>
-
-3. <b>Во все тяжкие</b> (Breaking Bad, 2008–2013)
-Школьный учитель химии превращается в наркобарона.
-🔹 <a href="https://www.netflix.com/title/70143836">Netflix</a> | <a href="https://www.kinopoisk.ru/series/404900/">Кинопоиск</a>
-
-4. <b>Шерлок</b> (Sherlock, 2010–2017)
-Современный Шерлок Холмс в Лондоне.
-🔹 <a href="https://www.bbc.co.uk/programmes/b018ttws">BBC</a> | <a href="https://www.kinopoisk.ru/series/404900/">Кинопоиск</a>
-
-5. <b>Сотня</b> (The 100, 2014–2020)
-100 подростков проверяют, можно ли вернуться на Землю после ядерной войны.
-🔹 <a href="https://www.netflix.com/title/70283264">Netflix</a> | <a href="https://www.kinopoisk.ru/series/775276/">Кинопоиск</a>
-
-6. <b>Миллиарды</b> (Billions, 2016–)
-Интеллектуальная война миллиардера и прокурора.
-🔹 <a href="https://www.showtime.com/billions">Showtime</a> | <a href="https://www.kinopoisk.ru/series/1048334/">Кинопоиск</a>
-
-7. <b>Хороший доктор</b> (The Good Doctor, 2017–)
-Врач с аутизмом доказывает, что он гений хирургии.
-🔹 <a href="https://www.hulu.com/series/the-good-doctor">Hulu</a> | <a href="https://www.kinopoisk.ru/series/1048334/">Кинопоиск</a>
+https://kinobase.org/serial/221750-kak-izbezhat-nakazaniya-za-ubiystvo
+https://kinobase.org/serial/228745-novichok
+https://kinobase.org/serial/16938-vo-vse-tyazhkie
+https://kinobase.org/serial/50284-sherlok
+https://kinobase.org/serial/222988-sotnya
+https://kinobase.org/serial/225133-milliardy
+https://kinobase.org/serial/228064-horoshiy-doktor
 """,
         reply_markup=kb.undo_keyboard
     )
@@ -134,35 +114,13 @@ async def start_command(client: Client, message: Message):
 async def start_command(client: Client, message: Message):
     await message.reply(
         """
-📺 Популярные русские сериалы с ссылками:
-
-1. <b>Кухня</b> (2012-2016)
-Ресторанная комедия
-Смотреть: [START](https://start.ru/watch/kuhnya) | [Кинопоиск](https://www.kinopoisk.ru/series/716587/)
-
-2. <b>Отель Элеон</b> (2016-2017)
-Спин-офф "Кухни"
-Смотреть: [START](https://start.ru/watch/oteleljon) | [IVI](https://www.ivi.ru/watch/217766)
-
-3. <b>Гранд</b> (2018-2020)
-Отельный бизнес
-Смотреть: [START](https://start.ru/watch/grand) | [Кинопоиск](https://www.kinopoisk.ru/series/1044036/)
-
-4. <b>Интерны</b> (2010-2016)
-Медицинская комедия
-Смотреть: [START](https://start.ru/watch/interny) | [IVI](https://www.ivi.ru/watch/internyi)
-
-5. <b>Мажор</b> (2014-2018)
-Полицейская драма
-Смотреть: [Кинопоиск](https://www.kinopoisk.ru/series/77044/) | [START](https://start.ru/watch/major)
-
-6. <b>Звоните ДиКаприо!</b> (2018)
-Драма
-Смотреть: [Кинопоиск](https://www.kinopoisk.ru/series/1048334/) | [IVI](https://www.ivi.ru/watch/146003)
-
-7. <b>Метод</b> (2015-2020)
-Детектив
-Смотреть: [Кинопоиск](https://www.kinopoisk.ru/series/963623/) | [START](https://start.ru/watch/metod)
+https://kinobase.org/serial/207319-kuhnya
+https://kinobase.org/serial/226260-otel-eleon
+https://kinobase.org/serial/230166-grand
+https://kinobase.org/serial/44047-interny
+https://kinobase.org/serial/220931-mazhor
+https://kinobase.org/serial/230987-zvonite-dikaprio
+https://kinobase.org/serial/225846-metod
 """,
         reply_markup=kb.undo_keyboard
     )
@@ -197,27 +155,11 @@ async def start_command(client: Client, message: Message):
 async def start_command(client: Client, message: Message):
     await message.reply(
         """
-🎬 <b>Лучшие русские фильмы</b> 🎬
-
-1. <b>Холоп</b> (2019)
-Мажора отправляют в "прошлое", где он должен стать обычным крестьянином.
-🔹 <a href="https://www.kinopoisk.ru/film/1143242/">Кинопоиск</a> | <a href="https://start.ru/watch/holop">START</a> | <a href="https://www.ivi.ru/watch/146018">IVI</a>
-
-2. <b>Лёд</b> (2018)
-История фигуристки, которая после травмы пытается вернуться к мечте.
-🔹 <a href="https://www.kinopoisk.ru/film/1045585/">Кинопоиск</a> | <a href="https://start.ru/watch/lyod">START</a> | <a href="https://www.ivi.ru/watch/led">IVI</a>
-
-3. <b>Притяжение</b> (2017)
-Инопланетяне падают на Москву. Наши военные и учёные решают, что с ними делать.
-🔹 <a href="https://www.kinopoisk.ru/film/1008448/">Кинопоиск</a> | <a href="https://start.ru/watch/prityazhenie">START</a>
-
-4. <b>Движение вверх</b> (2017)
-Легендарная победа советских баскетболистов над США в 1972 году.
-🔹 <a href="https://www.kinopoisk.ru/film/1008448/">Кинопоиск</a> | <a href="https://start.ru/watch/dvizhenie-vverh">START</a>
-
-5. <b>Батя</b> (2021)
-Комедия-драма про отца, который воспитывал сына жёсткими методами.
-🔹 <a href="https://www.kinopoisk.ru/film/1280498/">Кинопоиск</a> | <a href="https://start.ru/watch/batya">START</a>
+https://kinobase.org/film/229958-holop
+https://kinobase.org/film/215644-led
+https://kinobase.org/film/221067-prityazhenie
+https://kinobase.org/film/225150-dvizhenie-vverh
+https://kinobase.org/film/232456-batya
 """,
         reply_markup=kb.undo_keyboard
     )
@@ -258,26 +200,13 @@ async def start_command(client: Client, message: Message):
         """
 🎬 <b>Лучшие зарубежные фильмы (с ссылками)</b> 🎬
 
-1. <b>Достать ножи</b> (2019)
-<a href="https://www.kinopoisk.ru/film/1047883/">Кинопоиск</a> | <a href="https://www.netflix.com/title/81067445">Netflix</a>
-
-2. <b>Друзья Оушена</b> (2001)
-<a href="https://www.kinopoisk.ru/film/402/">Кинопоиск</a> | <a href="https://www.hbomax.com/feature/urn:hbo:feature:GXdu2JAQC6YpDwgEAAAAM">HBO Max</a>
-
-3. <b>Подруги Оушена</b> (2018)
-<a href="https://www.kinopoisk.ru/film/1045585/">Кинопоиск</a> | <a href="https://www.hbomax.com/feature/urn:hbo:feature:GXkRjxwjQ7_JuwwEAAAHs">HBO Max</a>
-
-4. <b>Начало</b> (2010)
-<a href="https://www.kinopoisk.ru/film/447301/">Кинопоиск</a> | <a href="https://www.netflix.com/title/70131314">Netflix</a>
-
-5. <b>Бойцовский клуб</b> (1999)
-<a href="https://www.kinopoisk.ru/film/361/">Кинопоиск</a> | <a href="https://www.hulu.com/movie/fight-club-9b5e5d6e-9b1a-4b3d-9b7a-9b1a4b3d9b7a">Hulu</a>
-
-6. <b>Марсианин</b> (2015)
-<a href="https://www.kinopoisk.ru/film/258687/">Кинопоиск</a> | <a href="https://www.disneyplus.com/movies/the-martian/4K6YbnvWBZ6w">Disney+</a>
-
-7. <b>Поймай меня, если сможешь</b> (2002)
-<a href="https://www.kinopoisk.ru/film/328/">Кинопоиск</a> | <a href="https://www.netflix.com/title/60024916">Netflix</a>
+https://kinobase.org/film/232833-dostat-nozhi
+https://kinobase.org/film/102188-druzya-oushena
+https://kinobase.org/film/195496-podrugi-oushena
+https://kinobase.org/film/44764-nachalo
+https://kinobase.org/film/361-boytsovskiy-klub
+https://kinobase.org/film/84024-marsianin
+https://kinobase.org/film/168-poymay-menya-esli-smozhesh
 """,
         reply_markup=kb.undo_keyboard
     )
